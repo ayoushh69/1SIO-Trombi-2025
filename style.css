@@ -3,11 +3,18 @@
 #GUERIPEL {
     background-color: blanchedalmond;
     color: blue;
-    img {
-  transition: transform 0.6s ease;
 }
 
-img:hover {
-  transform: rotate(360deg);
+#GUERIPEL img {
+    transition: transform 0.6s ease;
 }
+
+#GUERIPEL img:hover {
+    transform: rotate(360deg);
+}
+
+/* Ajout du changement de couleur au survol */
+#GUERIPEL:hover {
+    background-color: lightblue; /* nouvelle couleur au survol */
+    color: red; /* texte change de couleur */
 }
