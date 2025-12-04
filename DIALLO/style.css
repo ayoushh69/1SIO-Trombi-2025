@@ -1,0 +1,5 @@
+#DIALLO {
+  border: 5px solid red;          /* contour rouge /
+  border-radius: 8px;             / optionnel : coins arrondis /
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); / ombre rouge autour */
+}
